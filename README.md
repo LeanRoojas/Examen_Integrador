@@ -2,7 +2,7 @@
 Primer Examen Integrador: HTML, CSS, JavaScript // Fecha de entrega: Martes 23 / 11
 
 1 - Completar el form de la pagina de orden con los siguientes datos:
-     a - Nombre
+     a - Nombres
      b - Apellido
      c - Direccion
      d - Provincia
