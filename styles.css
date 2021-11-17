@@ -1,0 +1,61 @@
+
+/* VARIABLES Y FUENTE */
+
+:root{
+    --container-color: rgba(181, 181, 181, .75)
+
+
+
+}
+
+@font-face {
+    font-family: "Among Us";
+    src: url("./images/amongus\ vector.ttf");
+}
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Among Us";
+}
+
+body {
+    background-image: url(./images/fondo\ de\ amongus.png);
+    
+}
+
+
+
+.cabecera {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    padding: 0 2rem;
+    background-color: var(--container-color);
+}
+
+.cabecera > .logo > p {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.navbar > ul {
+    display: flex;
+}
+
+.navbar > ul > li {
+    margin: 0 1rem;
+}
+
+.navbar > ul > li > a{
+    font-size: 1.9rem;
+}
+
+
+
