@@ -206,3 +206,7 @@ body {
     font-size: 3rem;
     margin: .5rem;
 }
+
+.legal-advice > p{
+    font-size: .90rem;
+}
