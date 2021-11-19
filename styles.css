@@ -275,14 +275,76 @@ body {
     height: 80vh;
     background-color: var(--container-color);
     margin-top: 6rem;
+    padding: 1rem;
+    border-radius: 15px;
 }
 
 .formulario{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+
+
+.name-cont, .country-cont,
+.addres-cont,.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: .5rem;
+}
+
+.address{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name, .lastname, .country,
+.state,.dtp,.addresss,.email,.tel{
+    width: 45%;
+}
+
+.name > input,
+.lastname > input,
+.country > input,
+.state > input,
+.addresss > input,
+.dtp > input,
+.email > input,
+.tel > input{
+    width: 100%;
+}
+
+label{
+    font-size: 1.75rem;
+}
+
+input{
+    border: none;
+    height: 2rem;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+.formulario >button{
+    height: 2rem;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+
+.selecciones{
+    width: 40%;
+    height: 100%;
+}
+
+
+
 
 
