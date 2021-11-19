@@ -268,11 +268,21 @@ body {
 
 
 .form-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 60vw;
     height: 80vh;
     background-color: var(--container-color);
     margin-top: 6rem;
 }
 
+.formulario{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
