@@ -166,6 +166,57 @@ body {
 }
 
 
+.section-gorritos{
+    background-color: var(--container-color);
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.section-gorritos > p {
+    font-size: 5rem;
+}
+
+.container-gorritos{
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.card-gorrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 150px;
+    height: fit-content;
+    margin: 1rem 2rem;
+    
+}
+
+.card-gorrito > p{
+    font-size: 1.5rem;
+}
+
+.card-gorrito > .boton-gorrito{
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.card-gorrito img{
+    height: 100px;
+    width: 100px;
+}
+
+
 
 
 
@@ -210,3 +261,18 @@ body {
 .legal-advice > p{
     font-size: .90rem;
 }
+
+
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+.form-section{
+    width: 60vw;
+    height: 80vh;
+    background-color: var(--container-color);
+    margin-top: 6rem;
+}
+
+
+
