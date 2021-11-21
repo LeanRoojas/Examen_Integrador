@@ -1,11 +1,12 @@
 window.addEventListener("DOMContentLoaded",()=>{
 
     //Obetenemos los personajes y los guardamos en local storage con la key "card"
-   const orderbuttons = document.querySelectorAll("button[data-order-caracters]");
-   orderbuttons.forEach(item =>{
+   const cards = document.querySelectorAll("button[data-order-caracters]");
+   cards.forEach(item =>{
        item.addEventListener("click",(event)=>{
            
             const button = event.currentTarget;
+            button.classList.toggle("colorear");
             const container = button.parentNode.parentNode;
             const img = container.querySelector("img");
             let carta = {
@@ -24,6 +25,7 @@ window.addEventListener("DOMContentLoaded",()=>{
    hats.forEach(hat => {
        hat.addEventListener("click",(event)=>{
             const button = event.currentTarget;
+            button.classList.toggle("colorear2");
             const container = button.parentNode;
             const img = container.querySelector("img");
             let hat = {
@@ -31,10 +33,18 @@ window.addEventListener("DOMContentLoaded",()=>{
                 img: img.getAttribute("src")
             }
             localStorage.setItem("hat",JSON.stringify(hat));
-            const url = window.location.href.replace("index.html","order.html");
-             window.location.href = url;
+
+            setTimeout(() => {
+                const url = window.location.href.replace("index.html","order.html");
+                window.location.href = url;
+                
+            }, 2000);
         })
    })
+
+   console.log(hats);
+   console.log(cards);
+
 
 
    
