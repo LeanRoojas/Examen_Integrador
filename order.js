@@ -27,6 +27,9 @@ window.addEventListener("DOMContentLoaded",()=>{
         `;
     }
 
+    localStorage.removeItem("hat");
+    localStorage.removeItem("card");
+
 
 
 })
