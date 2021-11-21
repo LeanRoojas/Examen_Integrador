@@ -90,7 +90,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
       orderButton.addEventListener("click", () => {
         setTimeout(() => {
-          const url = window.location.href.replace("index.html", "order.html");
+          const url = window.location.href.replace("./index.html", "./order.html");
           window.location.href = url;
         }, 1000);
       });
