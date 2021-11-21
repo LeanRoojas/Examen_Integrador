@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded",()=>{
 
    console.log(hats);
    console.log(cards);
-
+   console.log("pucheando a otra rama equisde");
 
 
    
