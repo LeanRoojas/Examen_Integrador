@@ -59,7 +59,7 @@ window.addEventListener("DOMContentLoaded", () => {
       orderButton.innerHTML = `
             <button>
                 <audio src="./images/among-us-drip-theme-song-original-among-us-trap-remix-amogus-meme-music.mp3" autoplay></audio>
-                <img src="./images/amongus-shhh.png" alt="amongus-shhh">
+                <img src="./images/amongus-shhh.jpg" alt="amongus-shhh">
                 <p>CLICK HERE TO GET YOUT ORDER</p>
             </button>
             `;
