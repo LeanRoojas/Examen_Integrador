@@ -87,12 +87,12 @@ window.addEventListener("DOMContentLoaded", () => {
         img: img.getAttribute("src"),
       };
       localStorage.setItem("hat", JSON.stringify(hat));
-
+      const url = window.location.href.replace("index.html","order.html");
+      console.log(url);
+      window.location.href = url;
+      
       orderButton.addEventListener("click", () => {
         setTimeout(() => {
-          const url = window.location.href.replace("index.html","order.html");
-          console.log(url);
-          window.location.href = url;
         }, 1000);
         //si lee esto es q si se sincroniza github pages
       });
