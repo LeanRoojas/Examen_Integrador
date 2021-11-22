@@ -90,9 +90,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
       orderButton.addEventListener("click", () => {
         setTimeout(() => {
-          const url = window.location.href;
+          const url = window.location.href.replace("index.html","order.html");
           console.log(url);
+          window.location.href = url;
         }, 1000);
+        //si lee esto es q si se sincroniza github pages
       });
     });
   });
